@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a2b9da9c5d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/sajeeb.png" class="logo">
+        
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Deen Islam Sajeeb</span> <br>from Bangladesh.</h1>
+      </div>
+    </div>
+  </div>
+  <!-------------About Section------->
+  <div id="about">
+    <div class="container">
+      <div class="about">
+        <div class="row">
+          <about-col-1>
+            <img src="images/user3.jpg">
+          </about-col-1>
+          <about-col-2>
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello Everyone,<br>This is Deen Islam Sajeeb. I am a Computer Science Engineer. Currently I am working in fiverr.com & Freelancer.com as a Freelancer. I had good experience to work in this two sites. I am Expert in UI/UX Design, Web Design with PHP,Laravel,JavaScript,BootStrap,Graphics Design etc. I can help you to solve any problems in the above mentioned topics.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+              <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+              <p class="tab-links" onclick = "opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>❖UI/UX</span><br>Designing Web/App Interfaces.</li>
+                <li><span>❖Business Card/Logo</span><br>Designing Businesscard/Logo with Adobe Illustrator & Adobe Photoshop.</li>
+                <li><span>❖Website Making</span><br>Designing Web Application with PHP,Laravel,JavaScript & BootStrap.</li>
+                <li><span>❖Others</span><br>Outstanding knowledge about Google Sheets,MS Word,MS Exel Sheets, <br>Google forms & Surfing Internet.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>❖Attented</span><br>Participated in the Take Off Programming Contest-Fall 2018.<br>Participated in the DIU Intra Programming Contest-August 2019.</li>
+                <li><span>❖Member</span><br>Computer Programming Club(CPC)-DIU.</li>
+                <li><span>❖raphics Design</span><br>Member at DIU Graphics Design Club till December 2022.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>❖B.Sc Honours</span><br>Computer Science and Engineering(CSE) at Daffodil International University-2022.</li>
+                <li><span>❖HSC</span><br>Police Lines School and College,Rangpur-2016.</li>
+                <li><span>❖SSC</span><br>Shishu Niketon High School,Rangpur-2014.</li>
+              </ul>
+            </div>
+          </about-col-2>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!------------Services---------->
+
+  <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Hi,Thanks for checking out my website and design work. I can handle your all quearies and provide you the best user friendly Website in short and long terms. If you need any Web Designer feel free to contact with me.<br> Thank you.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>I specialize in designing and developing user interfaces and digital products. I don’t restrict myself to design. The blend of design, user experience, marketing, and business is where I feel I excel. A proper executed product design should translate into economic value for your business. So if you need any UI/UX Designer please Contact with me.<br>Thank you.</p>
+              <a href="#">Learn more</a>
+          </div>
+            
+          
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Graphics Design</h2>
+            <p>Hello,I am a professional graphic designer with over 6 years of experience. I have much experience in designing Business cards, Letterheads, Logos, and Flyers. I use Adobe Illustrator and Adobe Photoshop to design the graphics for you. Not only that, but I will provide high-quality work that will happy all my clients. I also provide AI or PSD files. I will complete many projects with customer satisfaction. Furthermore, I completed Course in graphic design. If you have work related to my skills, then contact me.<br>Thank you.</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-------------------Portfolio---------------------->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/GSWA.png" >
+          <div class="layer">
+            <h3>Web Design</h3>
+            <p>Hello Everyone,<br>I have design this Website with PHP,CSS3,BootStrap and JavaSrcipt.This was also my first project.I have Submitted this project in my University.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" >
+          <div class="layer">
+            <h3>User Interface</h3>
+            <p>Hi Everyone,<br>This is a part of my recent work. I have regularly Designing user interfaces for my clients.I have lot's of works to finish like this.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/SP1.jpg" >
+          <div class="layer">
+            <h3>Graphics Design works</h3>
+            <p>Hello Everyone,<br>This is a part of my recent work. I have regularly Designing this types of logo,business cards & all the necessary works related to Graphics Design for my clients.I have lot's of works to finish like this.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!----------------------Contact--------------------------->
+
+  <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i> deenislamsajeeb@gmail.com</p>
+            <p> <i class="fa-solid fa-square-phone"></i> +8801763087989</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/sa.jeeb.315"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/Sajeeb512"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/sajeeb_512/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/deen-islam-sajeeb-a63121174/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/CVSajeebnew.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Deen Islam Sajeeb <i class="fa-solid fa-heart"></i> UI/UX Designer.</p>
+      </div>
+  </div>
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents"); 
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+  sidemenu.style.right="0";
+}
+
+function closemenu(){
+  sidemenu.style.right="-200px";
+}
+
+</script>
+
+
+
+</body>
+</html>
